@@ -53,22 +53,22 @@ public class Main {
         }
 //                                                tesk 6
         int vanCapacity = 102;
-        int sedentaryPlaces = 61;
-        if (sedentaryPlaces < 60 && vanCapacity < 102) {
+        int sedentaryPlaces = 50;
+        if (sedentaryPlaces < 60 ) {
             System.out.println("В вагоне есть сидячие места");}
         if (sedentaryPlaces > 60 && vanCapacity < 102) {
             System.out.println("В вагоне есть стоячие места");
         } else {
             System.out.println("В вагоне мест нет");}
 //                                                 tesk 7
-        int One = 1;
-        int Two = 2;
-        int Three = 3;
-        if (One > Two && One > Three) {
-            System.out.println("One MAX");
-        } else if (Two < Three) {
-            System.out.println("Two MAX");
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (one > two && one > three) {
+            System.out.println("one MAX");
+        } else if (two > three) {
+            System.out.println("two MAX");
         }else{
-            System.out.println("Three MAX");}
+            System.out.println("three MAX");}
     }
 }
